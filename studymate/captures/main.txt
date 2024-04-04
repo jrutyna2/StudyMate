@@ -1,0 +1,136 @@
+import 'package:flutter/material.dart';
+
+void main() {
+  runApp(MyApp());
+}
+
+class MyApp extends StatelessWidget {
+  @override
+  Widget build(BuildContext context) {
+    return MaterialApp(
+      title: 'Flutter Demo',
+      theme: ThemeData(
+        brightness: Brightness.dark, // Define the brightness here
+        primarySwatch: Colors.purple,
+        colorScheme: const ColorScheme.dark(
+          primary: Colors.purple,
+          secondary: Colors.purpleAccent,
+        ),
+        fontFamily: 'Sans-Serif', // Replace with your custom font
+      ),
+      home: MyHomePage(),
+    );
+  }
+}
+
+class MyHomePage extends StatefulWidget {
+  @override
+  _MyHomePageState createState() => _MyHomePageState();
+}
+
+class _MyHomePageState extends State<MyHomePage> {
+
+  @override
+  Widget build(BuildContext context) {
+    return Scaffold(
+      appBar: AppBar(
+        title: const Text('Account'),
+      ),
+      body: ListView(
+        children: <Widget>[
+          ListTile(
+            leading: const Icon(Icons.account_circle, color: Colors.white70),
+            title: const Text('Account details'),
+            trailing: const Icon(Icons.arrow_forward_ios),
+            onTap: () {},
+          ),
+          // ... Add other ListTiles
+          Card(
+            color: Colors.black26,
+            child: Padding(
+              padding: const EdgeInsets.all(16.0),
+              child: Column(
+                children: [
+                  const Text(
+                    'Got an idea?',
+                    style: TextStyle(fontSize: 18.0, fontWeight: FontWeight.bold),
+                  ),
+                  const SizedBox(height: 10),
+                  const Text('Tell us how we can make your Kraken experience better.'),
+                  const SizedBox(height: 10),
+                  ElevatedButton(
+                    style: ButtonStyle(
+                      backgroundColor: MaterialStateProperty.all(Colors.deepPurple),
+                      shape: MaterialStateProperty.all(
+                        RoundedRectangleBorder(
+                          borderRadius: BorderRadius.circular(18.0),
+                        ),
+                      ),
+                    ),
+                    onPressed: () {},
+                    child: const Text('Request feature'),
+                  ),
+                ],
+              ),
+            ),
+          ),
+          // ... Add other settings options
+        ],
+      ),
+      floatingActionButton: Padding(
+        padding: const EdgeInsets.only(top: 70.0), // Push the FAB down by increasing the padding on top
+        child: FloatingActionButton(
+          onPressed: () {
+          // Add your onPressed code here!
+          },
+          tooltip: 'Increment',
+          child: const Icon(Icons.add),
+          mini: true,
+        )
+      ),
+      floatingActionButtonLocation: FloatingActionButtonLocation.centerDocked,
+      bottomNavigationBar: BottomAppBar(
+        shape: const CircularNotchedRectangle(),
+        child: Row(
+          mainAxisSize: MainAxisSize.max,
+          mainAxisAlignment: MainAxisAlignment.spaceAround,
+          children: [
+            _buildTabItem(icon: Icons.home, label: 'Home', onTap: () {
+              // Navigate to Home screen
+            }),
+            _buildTabItem(icon: Icons.search, label: 'Explore', onTap: () {
+              // Navigate to Explore screen
+            }),
+            const SizedBox(width: 48), // Placeholder for the middle tab
+            _buildTabItem(icon: Icons.pie_chart, label: 'Portfolio', onTap: () {
+              // Navigate to Portfolio screen
+            }),
+            _buildTabItem(icon: Icons.person, label: 'Account', onTap: () {
+              // Navigate to Account screen
+            }),
+          ],
+        ),
+      )
+    );
+  }
+
+  Widget _buildTabItem({
+    required IconData icon,
+    required String label,
+    required VoidCallback onTap,
+  }) {
+    return Expanded(
+      child: InkWell(
+        onTap: onTap,
+        child: Column(
+          mainAxisSize: MainAxisSize.min,
+          mainAxisAlignment: MainAxisAlignment.center,
+          children: <Widget>[
+            Icon(icon, color: Colors.white70),
+            Text(label, style: const TextStyle(fontSize: 12, color: Colors.white70))
+          ],
+        ),
+      ),
+    );
+  }
+}

@@ -1,0 +1,45 @@
+Course cis3120 = Course(
+  name: 'CIS3120',
+  outlinePath: 'CIS3120/Outline.pdf',
+  documents: [
+    Document(name: 'Homework Problems', path: 'CIS3120/Homework Problems'),
+    Document(name: 'Homework Solutions', path: 'CIS3120/Homework Solutions'),
+    Document(name: 'Labs', path: 'CIS3120/Labs'),
+  ],
+);
+
+Course cis4030 = Course(
+  name: 'CIS4030',
+  outlinePath: 'CIS4030/Outline.pdf',
+  documents: [
+    Document(name: 'Exercises', path: 'CIS4030/Exercises'),
+    Document(name: 'Milestone', path: 'CIS4030/Milestone'),
+  ],
+);
+
+Course cis4650 = Course(
+    name: 'CIS4650',
+    outlinePath: 'CIS4650/Outline.pdf',
+    documents: [
+      Document(name: 'Assignment and Project', path: 'CIS4650/Assignment and Project'),
+      Document(name: 'Lectures', path: 'CIS4650/Lectures'),
+      Document(name: 'References', path: 'CIS4650/References'),
+    ],
+  );
+
+  Course cis4800 = Course(
+    name: 'CIS4800',
+    outlinePath: 'CIS4800/Outline.pdf',
+    documents: [
+      Document(name: 'Assignments', path: 'CIS4800/Assignments'),
+      Document(name: 'Lectures', path: 'CIS4800/Lectures'),
+    ],
+  );
+
+  Course nutr4090 = Course(
+    name: 'NUTR4090',
+    outlinePath: 'NUTR4090/Outline.pdf',
+    documents: [
+      Document(name: 'Lectures', path: 'NUTR4090/Lectures'),
+    ],
+  );
