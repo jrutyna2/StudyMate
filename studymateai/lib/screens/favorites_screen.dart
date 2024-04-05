@@ -1,9 +1,9 @@
 import 'package:flutter/material.dart';
 import 'package:provider/provider.dart';
-import '../models/course.dart';
-import '../models/favorite_courses_model.dart';
-import '../services/course_service.dart';
-import 'course_details_screen.dart';
+import '../models/recipe.dart';
+import '../models/favorite_recipes_model.dart';
+import '../services/recipe_service.dart';
+import 'recipe_screen.dart';
 
 class FavouritesScreen extends StatelessWidget {
   final List<Recipe> favoriteRecipes;

@@ -1,4 +1,4 @@
-class Recipe {
+class Course {
   final String title;
   final String author;
   final String amount;
@@ -12,7 +12,7 @@ class Recipe {
   final List<String> directions;
   final int time;
 
-  Recipe({
+  Course({
     required this.title,
     required this.author,
     required this.amount,
@@ -27,8 +27,8 @@ class Recipe {
     required this.time,
   });
 
-  factory Recipe.fromJson(Map<String, dynamic> json) {
-    return Recipe(
+  factory Course.fromJson(Map<String, dynamic> json) {
+    return Course(
       title: json['recipeName'] as String,
       author: json['recipeAuthor'] as String,
       amount: json['amountOfIngredients'] as String,

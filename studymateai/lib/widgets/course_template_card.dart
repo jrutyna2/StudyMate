@@ -6,13 +6,8 @@ import '/models/course_template.dart';
 
 class CourseTemplateCard extends StatelessWidget {
   final CourseTemplate template;
-  final VoidCallback? onTap; // Add an onTap callback
 
-  const CourseTemplateCard({
-    Key? key,
-    required this.template,
-    this.onTap, // Add onTap to the constructor
-  }) : super(key: key);
+  const CourseTemplateCard({super.key, required this.template});
 
   @override
   Widget build(BuildContext context) {

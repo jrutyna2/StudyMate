@@ -4,7 +4,84 @@
     <option name="autoReloadType" value="SELECTIVE" />
   </component>
   <component name="ChangeListManager">
-    <list default="true" id="59f3dfdc-fd64-44a5-91bb-b67f42d7f240" name="Changes" comment="" />
+    <list default="true" id="59f3dfdc-fd64-44a5-91bb-b67f42d7f240" name="Changes" comment="">
+      <change afterPath="$PROJECT_DIR$/lib/models/course_manager.dart" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/lib/screens/DatabaseHelper.dart" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/lib/screens/accounts_screen.dart" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/lib/screens/chat_screen.dart" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/lib/screens/course_details_screen.dart" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/lib/screens/messages_screen.dart" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/lib/screens/my_courses_screen.dart" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/lib/screens/profile_screen.dart" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/lib/screens/schedule_screen.dart" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/lib/screens/settings_screen.dart" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../exercise13bnew/assets/recipe_list.json" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../studymateai/lib/main.dart" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../studymateai/lib/models/course_template.dart" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../studymateai/lib/models/favorite_course_model.dart" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../studymateai/lib/screens/course_builder.dart" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../studymateai/lib/screens/course_builder2.dart" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../studymateai/lib/screens/course_screen.dart" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../studymateai/lib/screens/courses_grid_screen.dart" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../studymateai/lib/screens/home_screen.dart" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../studymateai/lib/screens/login_screen.dart" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../studymateai/lib/screens/new_course_screen.dart" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../studymateai/lib/screens/settings_screen.dart" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../studymateai/lib/screens/start_page.dart" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../studymateai/lib/screens/welcome_screen.dart" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../studymateai/lib/themes/app_theme.dart" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../studymateai/lib/utils/sliver_appbar_delegate.dart" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../studymateai/lib/widgets/bottom_navigation_bar.dart" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../studymateai/lib/widgets/course_template_card.dart" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../studymateai/lib/widgets/feature_card.dart" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../studymateai/lib/widgets/feature_highlight.dart" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../studymateai/lib/widgets/home_drawer.dart" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../temp/assets/course_list.json" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../temp/assets/recipe_list.json" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../temp/lib/main.dart" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../temp/lib/models/course.dart" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../temp/lib/models/favorite_courses_model.dart" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../temp/lib/screens/course_screen.dart" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../temp/lib/screens/courses_grid_screen.dart" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../temp/lib/screens/favorite_courses_screen.dart" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../temp/lib/screens/new_course_screen.dart" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../temp/lib/screens/settings_screen.dart" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../temp/lib/screens/start_page.dart" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../temp/lib/services/course_service.dart" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../temp/lib/utils/sliver_appbar_delegate.dart" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../temp/lib/widgets/course_card.dart" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/ios/Podfile.lock" beforeDir="false" afterPath="$PROJECT_DIR$/ios/Podfile.lock" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/lib/main.dart" beforeDir="false" afterPath="$PROJECT_DIR$/lib/main.dart" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/lib/models/course_template.dart" beforeDir="false" afterPath="$PROJECT_DIR$/lib/models/course_template.dart" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/lib/screens/home_screen.dart" beforeDir="false" afterPath="$PROJECT_DIR$/lib/screens/home_screen.dart" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/lib/screens/login_screen.dart" beforeDir="false" afterPath="$PROJECT_DIR$/lib/screens/login_screen.dart" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/lib/screens/welcome_screen.dart" beforeDir="false" afterPath="$PROJECT_DIR$/lib/screens/welcome_screen.dart" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/lib/widgets/bottom_navigation_bar.dart" beforeDir="false" afterPath="$PROJECT_DIR$/lib/widgets/bottom_navigation_bar.dart" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/lib/widgets/course_template_card.dart" beforeDir="false" afterPath="$PROJECT_DIR$/lib/widgets/course_template_card.dart" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/lib/widgets/home_drawer.dart" beforeDir="false" afterPath="$PROJECT_DIR$/lib/widgets/home_drawer.dart" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/macos/Flutter/GeneratedPluginRegistrant.swift" beforeDir="false" afterPath="$PROJECT_DIR$/macos/Flutter/GeneratedPluginRegistrant.swift" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/pubspec.lock" beforeDir="false" afterPath="$PROJECT_DIR$/pubspec.lock" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/pubspec.yaml" beforeDir="false" afterPath="$PROJECT_DIR$/pubspec.yaml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../exercise13b/assets/course_list.json" beforeDir="false" afterPath="$PROJECT_DIR$/../studymateai/assets/course_list.json" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../exercise13b/lib/main.dart" beforeDir="false" afterPath="$PROJECT_DIR$/../exercise13b/lib/main.dart" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../exercise13b/lib/models/course.dart" beforeDir="false" afterPath="$PROJECT_DIR$/../studymateai/lib/models/course.dart" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../exercise13b/lib/models/favorite_courses_model.dart" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../exercise13b/lib/screens/course_screen.dart" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../exercise13b/lib/screens/courses_grid_screen.dart" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../exercise13b/lib/screens/favorite_courses_screen.dart" beforeDir="false" afterPath="$PROJECT_DIR$/../studymateai/lib/screens/favorites_screen.dart" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../exercise13b/lib/screens/new_course_screen.dart" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../exercise13b/lib/services/course_service.dart" beforeDir="false" afterPath="$PROJECT_DIR$/../studymateai/lib/services/course_service.dart" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../exercise13b/lib/themes/app_theme.dart" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../exercise13b/lib/widgets/course_card.dart" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../exercise13bnew/assets/course_list.json" beforeDir="false" afterPath="$PROJECT_DIR$/../exercise13bnew/assets/course_list.json" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../exercise13bnew/lib/main.dart" beforeDir="false" afterPath="$PROJECT_DIR$/../exercise13bnew/lib/main.dart" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../exercise13bnew/lib/models/favorite_courses_model.dart" beforeDir="false" afterPath="$PROJECT_DIR$/../exercise13bnew/lib/models/favorite_courses_model.dart" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../exercise13bnew/lib/screens/courses_grid_screen.dart" beforeDir="false" afterPath="$PROJECT_DIR$/../exercise13bnew/lib/screens/courses_grid_screen.dart" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../exercise13bnew/lib/screens/favorite_courses_screen.dart" beforeDir="false" afterPath="$PROJECT_DIR$/../exercise13bnew/lib/screens/favorite_courses_screen.dart" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../exercise13bnew/lib/screens/start_page.dart" beforeDir="false" afterPath="$PROJECT_DIR$/../exercise13bnew/lib/screens/start_page.dart" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../exercise13bnew/pubspec.yaml" beforeDir="false" afterPath="$PROJECT_DIR$/../exercise13bnew/pubspec.yaml" afterDir="false" />
+    </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
     <option name="HIGHLIGHT_NON_ACTIVE_CHANGELIST" value="false" />
@@ -31,6 +108,9 @@
       </list>
     </option>
   </component>
+  <component name="Git.Settings">
+    <option name="RECENT_GIT_ROOT_PATH" value="$PROJECT_DIR$/.." />
+  </component>
   <component name="MarkdownSettingsMigration">
     <option name="stateVersion" value="1" />
   </component>
@@ -56,9 +136,10 @@
     "RunOnceActivity.OpenProjectViewOnStart": "true",
     "RunOnceActivity.ShowReadmeOnStart": "true",
     "dart.analysis.tool.window.visible": "false",
+    "git-widget-placeholder": "main",
     "io.flutter.reload.alreadyRun": "true",
     "kotlin-language-version-configured": "true",
-    "last_opened_file_path": "/Users/jordanrutyna/Documents/W24/CIS4030/Milestone/StudyMateApp/coursebuilderscreen",
+    "last_opened_file_path": "/Users/jordanrutyna/Documents/W24/CIS4030/Milestone/M3/StudyMate/lib/screens",
     "node.js.detected.package.eslint": "true",
     "node.js.detected.package.tslint": "true",
     "node.js.selected.package.eslint": "(autodetect)",
@@ -76,6 +157,8 @@
 }]]></component>
   <component name="RecentsManager">
     <key name="CopyFile.RECENT_KEYS">
+      <recent name="$PROJECT_DIR$/lib/screens" />
+      <recent name="$PROJECT_DIR$/assets" />
       <recent name="$PROJECT_DIR$" />
     </key>
     <key name="MoveFile.RECENT_KEYS">
@@ -106,6 +189,7 @@
       <workItem from="1711567334231" duration="26586000" />
       <workItem from="1711850014236" duration="285000" />
       <workItem from="1712272473817" duration="298000" />
+      <workItem from="1712312618622" duration="13905000" />
     </task>
     <servers />
   </component>

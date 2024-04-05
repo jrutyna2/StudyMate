@@ -16,35 +16,6 @@ class CustomBottomNavigationBar extends StatefulWidget {
 }
 
 class CustomBottomNavigationBarState extends State<CustomBottomNavigationBar> {
-  void _onItemTapped(int index) {
-    String routeName;
-
-    switch (index) {
-      case 0: // Assuming index 0 is for the Home screen
-        routeName = '/home';
-        break;
-      case 1: // Courses screen
-        routeName = '/courses';
-        break;
-      case 2: // Assuming index 2 is for a Special Features screen
-        routeName = '/chat'; // Update this with the actual route name
-        break;
-      case 3: // Schedule screen
-        routeName = '/schedule'; // Update this with the actual route name
-        break;
-      case 4: // Account screen
-        routeName = '/account'; // Update this with the actual route name
-        break;
-      default:
-        routeName = '/home';
-    }
-
-    // Check if the current screen is not the selected screen to avoid pushing it again
-    if (ModalRoute.of(context)?.settings.name != routeName) {
-      Navigator.of(context).pushNamed(routeName);
-    }
-  }
-
   @override
   Widget build(BuildContext context) {
     return BottomNavigationBar(
@@ -73,10 +44,7 @@ class CustomBottomNavigationBarState extends State<CustomBottomNavigationBar> {
       ],
       currentIndex: widget.selectedIndex,
       selectedItemColor: Colors.purple,
-      onTap: (index) {
-        widget.onItemSelected(index); // Call the callback passed from parent widget
-        _onItemTapped(index); // Handle navigation
-      },
+      onTap: widget.onItemSelected,
       type: BottomNavigationBarType.fixed,
     );
   }
