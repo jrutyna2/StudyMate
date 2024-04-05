@@ -1,0 +1,104 @@
+{
+  "courses": [
+    {
+      "id": "1",
+      "title": "Introduction to Computer Science",
+      "syllabus": "This course covers fundamental concepts in computer science...",
+      "materials": ["Textbook: Introduction to Computing", "Laptop with internet access"],
+      "length": "10 weeks",
+      "difficulty": "Beginner",
+      "summary": "Learn the basics of computer science, covering algorithms, data structures, and more.",
+      "categories": ["Science", "Technology"]
+    },
+    {
+      "id": "2",
+      "title": "Modern World History",
+      "syllabus": "Exploring significant global events from the 18th century to the present...",
+      "materials": ["Textbook: History of the Modern World", "Note-taking supplies"],
+      "length": "8 weeks",
+      "difficulty": "Intermediate",
+      "summary": "Dive into the events that shaped the modern world, from revolutions to technological advancements.",
+      "categories": ["Humanities", "History"]
+    },
+    {
+      "id": "3",
+      "title": "Introduction to Psychology",
+      "syllabus": "Explore the fundamental principles of psychology and its various subfields...",
+      "materials": ["Textbook: Introduction to Psychology", "Notebook and pen"],
+      "length": "12 weeks",
+      "difficulty": "Beginner",
+      "summary": "Gain insight into the human mind and behavior through the lens of psychology.",
+      "categories": ["Science", "Social Sciences"]
+    },
+    {
+      "id": "4",
+      "title": "Artificial Intelligence Fundamentals",
+      "syllabus": "An overview of AI concepts, including machine learning, neural networks, and natural language processing...",
+      "materials": ["Textbook: Artificial Intelligence: A Modern Approach", "Access to programming environment"],
+      "length": "10 weeks",
+      "difficulty": "Intermediate",
+      "summary": "Explore the cutting-edge field of artificial intelligence and its practical applications.",
+      "categories": ["Science", "Technology"]
+    },
+    {
+      "id": "5",
+      "title": "Creative Writing Workshop",
+      "syllabus": "Develop your writing skills through exercises, workshops, and peer feedback...",
+      "materials": ["Writing materials", "Reference books on writing"],
+      "length": "6 weeks",
+      "difficulty": "Beginner",
+      "summary": "Unlock your creativity and express yourself through the art of writing.",
+      "categories": ["Humanities", "Literature"]
+    },
+    {
+      "id": "6",
+      "title": "Fundamentals of Microeconomics",
+      "syllabus": "An introduction to the principles of microeconomics, including supply and demand, consumer behavior, and market structures...",
+      "materials": ["Textbook: Microeconomics", "Calculator"],
+      "length": "8 weeks",
+      "difficulty": "Intermediate",
+      "summary": "Gain a deeper understanding of how individuals and firms make economic decisions in various market environments.",
+      "categories": ["Social Sciences", "Economics"]
+    },
+    {
+      "id": "7",
+      "title": "Astrophysics: Exploring the Universe",
+      "syllabus": "Delve into the mysteries of the cosmos, from celestial mechanics to the origins of the universe...",
+      "materials": ["Textbook: Astrophysics for People in a Hurry", "Telescope (optional)"],
+      "length": "10 weeks",
+      "difficulty": "Intermediate",
+      "summary": "Embark on a journey through space and time to understand the wonders of the universe.",
+      "categories": ["Science", "Physics"]
+    },
+    {
+      "id": "8",
+      "title": "Data Science with Python",
+      "syllabus": "Learn the essentials of data science using Python, including data analysis, visualization, and machine learning...",
+      "materials": ["Python programming environment", "Datasets for practice"],
+      "length": "12 weeks",
+      "difficulty": "Intermediate",
+      "summary": "Master the tools and techniques used by data scientists to extract insights from data.",
+      "categories": ["Science", "Technology"]
+    },
+    {
+      "id": "9",
+      "title": "Introduction to Philosophy",
+      "syllabus": "Examine fundamental philosophical questions and theories, from ethics to metaphysics...",
+      "materials": ["Textbook: Philosophy: The Basics", "Notebook and pen"],
+      "length": "8 weeks",
+      "difficulty": "Beginner",
+      "summary": "Engage in critical thinking and explore the fundamental concepts that shape human thought.",
+      "categories": ["Humanities", "Philosophy"]
+    },
+    {
+      "id": "10",
+      "title": "Environmental Science",
+      "syllabus": "Study the complex interactions between humans and the environment, including ecosystems, pollution, and sustainability...",
+      "materials": ["Textbook: Environmental Science", "Outdoor gear for fieldwork"],
+      "length": "10 weeks",
+      "difficulty": "Intermediate",
+      "summary": "Gain an understanding of environmental issues and explore solutions for a sustainable future.",
+      "categories": ["Science", "Environmental Studies"]
+    }
+  ]
+}
