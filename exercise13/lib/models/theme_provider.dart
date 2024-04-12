@@ -7,9 +7,9 @@ class ThemeProvider with ChangeNotifier {
 
   ThemeProvider(this._themeData);
 
-  ThemeData get themeData => _themeData;
+  ThemeData get getTheme => _themeData; // Corrected getter method
 
-  setTheme(ThemeData theme) {
+  set themeData(ThemeData theme) {
     _themeData = theme;
     notifyListeners();
   }
@@ -22,3 +22,6 @@ class ThemeProvider with ChangeNotifier {
     );
   }
 }
+
+
+
