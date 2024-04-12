@@ -1,1 +1,8 @@
+# Ignore everything in the repository
+*
+
+# Except the exercise13 folder
+!exercise13/
+
 .DS_Store
+*.zip
